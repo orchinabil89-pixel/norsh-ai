@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NORSH AI - Votre assistant intelligent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="assets/logo.png" alt="NORSH AI" class="logo">
+        <nav>
+            <a href="#features">Fonctionnalités</a>
+            <a href="#demo">Démo</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <h1>Bienvenue sur NORSH AI</h1>
+        <p>L’intelligence artificielle qui connecte vos réseaux sociaux, maison et voiture.</p>
+        <input type="text" placeholder="Que souhaitez-vous faire aujourd'hui ?" id="userInput">
+        <button onclick="processInput()">Envoyer</button>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+        <h2>Fonctionnalités</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Réseaux sociaux</h3>
+                <p>Analyse, publications et recommandations en temps réel.</p>
+            </div>
+            <div class="card">
+                <h3>Maison connectée</h3>
+                <p>Contrôle des lumières, volets, thermostat et appareils IoT.</p>
+            </div>
+            <div class="card">
+                <h3>Voiture intelligente</h3>
+                <p>Démarrage, préchauffage et suivi de votre véhicule.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo -->
+    <section id="demo">
+        <h2>Démo interactive</h2>
+        <div id="demoBox">
+            <p id="aiResponse">Votre assistant NORSH AI est prêt à vous aider.</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <input type="text" placeholder="Nom">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 NORSH AI - Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
